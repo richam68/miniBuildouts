@@ -1,0 +1,15 @@
+.select-wrapper{
+    margin: 2px;
+    padding: 12px;
+}
+.highlight {
+    color: #007bff; /* Highlighted text color */
+    font-weight: bold;
+    font-size: xx-large;
+    margin: 12px
+  }
+  
+  .fade {
+    color: #777; /* Faded text color */
+    font-style: italic;
+  }
