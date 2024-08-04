@@ -114,11 +114,12 @@ const Country = () => {
 
     
       {selectCountry && selectState && selectCity && (
-        <h2>You selected
-          <span className="fade">
-          {selectCountry}, {selectState}, {selectCity}
-          </span>
-            </h2>
+        <h2>
+        You selected <span className="highlight">{selectCity}</span>,{" "}
+        <span className="fade">
+          {selectState}, {selectCountry}
+        </span>
+      </h2>
         )}
     
     </div>
