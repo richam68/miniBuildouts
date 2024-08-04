@@ -112,7 +112,7 @@ const Country = () => {
         </select>
       </div>
 
-      <div>
+    
       {selectCountry && selectState && selectCity && (
         <h2>You selected
           <span className="fade">
@@ -120,7 +120,7 @@ const Country = () => {
           </span>
             </h2>
         )}
-        </div>
+    
     </div>
   );
 };
