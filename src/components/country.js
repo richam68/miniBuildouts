@@ -115,8 +115,7 @@ const Country = () => {
     
       {selectCountry && selectState && selectCity && (
           <p className="fade">
-             You selected 
-         {selectCity}, {selectState}, {selectCountry}
+             You selected     {selectCity}, {selectState}, {selectCountry}
         </p>
         )}
     
