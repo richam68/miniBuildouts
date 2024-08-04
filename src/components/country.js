@@ -78,10 +78,12 @@ const Country = () => {
   const handleSelectCity = (e) => {
     setSelectCity(e.target.value)
   }
+
   return (
     <div>
       <h1>Select Location</h1>
       <div className="select-wrapper">
+
         <select onChange={handleCountryChange} value={selectCountry}>
           <option>Select Country</option>
           {countryData.map((item, i) => {
@@ -109,6 +111,7 @@ const Country = () => {
           })}
         </select>
       </div>
+
       {selectCountry && selectState && selectCity && (
       <div>
         <h2>You selected
@@ -118,7 +121,7 @@ const Country = () => {
           </span>
             </h2>
       </div>
-)}
+        )}
     </div>
   );
 };
